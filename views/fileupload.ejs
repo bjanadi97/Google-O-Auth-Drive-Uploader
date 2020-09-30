@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Google Drive Album Uploader</title>
+<meta name="viewport" http-equiv="Content-Type" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<style>
+body{
+  background-color: whitesmoke;
+}
+p{
+	  width: 100%;
+	  height: 100%;
+	  text-align: center;
+	  line-height: 170px;
+	  color: black;
+	  font-family: Arial;
+	}
+h4{
+	  text-align: center;
+	  line-height: 10px;
+    font-family: Arial;
+	  font-size: large;
+	  /* margin-bottom: 5%; */
+}
+h2{
+	  text-align: center;
+	  line-height: 170px;
+    font-family: Arial;
+	  font-size: xx-large;
+}
+h3{
+	  text-align: center;
+	  line-height: 170px;
+    margin-top: 20%;
+    font-family: Arial;
+    color: red;
+	  font-size: medium;
+}
+.card-img-top{
+  position: absolute;
+  margin-left: 15%;
+  height: 100px;
+  width: 100px;
+}
+form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -250px;
+  width: 500px;
+  height: 200px;
+  border: 5px dashed #149174;
+}
+form p{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 170px;
+  color:black;
+  font-family: Arial;
+}
+form input{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+}
+form button{
+  margin: 0;
+  color: #fff;
+  background: #16a085;
+  border: none;
+  width: 508px;
+  height: 35px;
+  margin-top: -20px;
+  margin-left: -4px;
+  border-radius: 4px;
+  border-bottom: 4px solid #117A60;
+  transition: all .2s ease;
+  outline: none;
+}
+form button:hover{
+  background: #149174;
+	color: #0C5645;
+}
+form button:active{
+  border:0;
+  font-weight: bolder;
+  font-family: Arial;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+
+</style>
+
+<script>
+$(document).ready(function(){
+  $('form input').change(function () {
+    $('form p').text(this.files.length + " file(s) selected");
+  });
+}); 
+</script>
+</head>
+
+<body>
+  <table style="margin-right: 40%;position: relative;">
+    <tr>
+      <td style="width: 180px;">
+        <img   
+        src="<%= picture %>"
+        class="card-img-top"
+        alt="..."
+        />
+      </td>
+      <td style="width: 350px;">       
+      </td>
+    </tr>
+    <tr>
+      <td>
+      </td>
+      <td>
+        <h4><strong>Welcome</strong> <%= title %></h4> 
+      </td>
+    </tr>
+  </table>  
+    <h2>Upload Your Photo</h2>    
+   
+    <form action="/uploadToDrive" method="POST" enctype="multipart/form-data">
+          <input
+            type="file"
+            class="form-control"
+            name="file"
+            required
+            multiple
+            id=""
+          />
+        <p>Drag your files here or click in this area.</p>
+        <button type="submit">
+            Upload your album
+        </button>        
+    </form>
+
+    <% if(success == true){ %>
+     
+    <div>
+    <h3>Your photo was uploaded successfully !</h3>
+    </div>
+    <% } %>
+
+</body>
+
+  
+  
+  
+  
+  
+  
+  
