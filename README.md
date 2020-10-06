@@ -22,7 +22,7 @@ Step 4 -  Open a new terminal and navigate to the root folder.
 Step 5 - Run the command "npm start"
 
 
-Step 6  - Open a browser and run the application on localhost://5000
+Step 6  - Open a browser and run the application on localhost:5000
 
 
 Step 7  - Click the button "Sign in with Google" and authorize an account.
