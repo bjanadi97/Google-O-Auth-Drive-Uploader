@@ -5,7 +5,14 @@ Boteju W.J.M IT17133678 , A.K.P Erandi Wathsala IT174352
 
 This is a Web application  created to upload a file to your Google Drive account.
 
-This application is created using a Node.JS Express Server running on localhost:5000
+
+This application is created using a Node.JS Express Server 
+
+
+Before setting up the project , please make sure you have node development environment setup installed on your PC.
+
+
+The application runs  on port localhost:5000
 
 Step 1 -  Download the Zip Code for the above project.
 
