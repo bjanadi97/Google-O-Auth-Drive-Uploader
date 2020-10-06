@@ -39,7 +39,7 @@ Step 7  - Click the button "Sign in with Google" and authorize an account.
 Step 8 - Select an account and proceed.
 
 
-Step 9 - Upload a Photo and click "Upload your album".
+Step 9 - Upload a Photo and click "Upload your album". (The file may not be shown in the drop box yet it is selected).
 
 
 Step 10 - Go to your selected Goole drive account and see if the uploaded file is available.
