@@ -15,10 +15,10 @@ Before setting up the project , please make sure you have node development envir
 
 The application runs  on port localhost:5000
 
-Step 1 -  Download the Zip Code for the above project.
+Step 1 -  Download the Zip Code for the above project.Make sure to download all the nodemodules as well.
 
 
-Step 2 -  Extract the Zipped Folder named Google-O-Auth-Drive-Uploader-master. Make sure to download all the nodemodules as well.
+Step 2 -  Extract the Zipped Folder named Google-O-Auth-Drive-Uploader-master. 
 
 
 Step 3 -  Open the extracted folder using a suitable code editor. (Preferably Visual Studio Code)
