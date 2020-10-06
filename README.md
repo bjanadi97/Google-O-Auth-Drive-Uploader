@@ -24,7 +24,7 @@ Step 2 -  Extract the Zipped Folder named Google-O-Auth-Drive-Uploader-master.
 Step 3 -  Open the extracted folder using a suitable code editor. (Preferably Visual Studio Code)
 
 
-Step 4 -  Open a new terminal and navigate to the root folder.
+Step 4 -  Open a new terminal and navigate to the root folder which contains the node modules.
 
 
 Step 5 - Run the command "npm start"
