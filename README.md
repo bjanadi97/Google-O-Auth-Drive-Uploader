@@ -3,7 +3,8 @@ Boteju W.J.M IT17133678 , A.K.P Erandi Wathsala IT174352
 
 
 
-This is a Web application  created to upload a file to your Google Drive account.
+This is a Web application  created to upload a file to your Google Drive account that consumes the service of an OAuth Authorization Server and an OAuth Resource Server.
+
 
 
 This application is created using a Node.JS Express Server 
